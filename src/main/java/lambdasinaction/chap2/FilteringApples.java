@@ -77,7 +77,30 @@ public class FilteringApples{
 			}
 		}
 		return result;
-	}       
+	}
+
+    // public static void prettyPrintApple(List<Apple> inventory,prettyPrintApple p){
+    // 	for(Apple apple:inventory){
+    // 		String output = p.str(apple);
+    // 		System.out.println(output);
+    // 	}
+    // }
+
+    // interface ApplePrint{
+    // 	public String str(Apple a);
+    // }
+
+    // static class prettyPrint implements ApplePrint{
+    // 	public String str(Apple a){
+    // 		System.out.println(a.toString);
+    // 	}
+    // }
+
+    // static class prettyPrint2 implements ApplePrint{
+    // 	public String str(Apple a){
+    // 		return "the weight is: " + a.getWeight;
+    // 	}
+    // }
 
 	public static class Apple {
 		private int weight = 0;
