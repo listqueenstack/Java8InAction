@@ -28,7 +28,6 @@ public class FilteringApples{
 		List<Apple> redAndHeavyApples = filter(inventory, new AppleRedAndHeavyPredicate());
 		System.out.println(redAndHeavyApples);
 
-		// [Apple{color='red', weight=120}]
 		List<Apple> redApples2 = filter(inventory, new ApplePredicate() {
 			public boolean test(Apple a){
 				return a.getColor().equals("red"); 
